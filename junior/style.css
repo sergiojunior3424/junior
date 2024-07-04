@@ -1,0 +1,38 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.cabeçalho{
+    background-color: rgba(103, 25, 192, 0.986);
+       color: rgb(235, 222, 222);
+         display: flex;
+            justify-content: space-around;
+             align-items: center;
+ }
+.cabeçalho-imagens{
+       width: 100%;
+}
+.cabeçallho-lista-item{
+   display: inline-block;
+   margin: 0 16px;
+   font-size: 24px;
+}
+.barbearia-imagem{ 
+   width: 25%;
+}
+.barbearia{
+   background-color: color-mix(in hsl shorter hue, rgb(0, 0, 0) 50%, rgb(36, 36, 36) 50%);
+    color: color-mix(in hwb shorter hue, rgb(0, 0, 0) 70%, rgb(255, 255, 255) 100%);
+     display: flex;
+      justify-content: center;
+       align-items: center;
+        padding: 25px 0;
+      }
+.barbearia-div-conteudoss{
+   width: 35%;
+}
+.ano{
+   padding: 20px 0;
+}
+
